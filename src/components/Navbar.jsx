@@ -1,6 +1,5 @@
 import logo from "../assets/kevinRushLogo.png";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -9,10 +8,15 @@ const Navbar = () => {
         <img className="mx-2 w-19" src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <SiGmail />
-        {/* <FaTwitter /> */}
+        <a href="https://www.linkedin.com/in/divya-shrivastava-se/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/divshi" target="_blank" rel="noopener noreferrer">
+          <FaGithub />
+        </a>
+        <a href="https://www.instagram.com/divya.shrivastava.se/" target="_blank" rel="noopener noreferrer">
+          <FaInstagram />
+        </a>
       </div>
     </nav>
   );

@@ -2,10 +2,10 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-1.jpg";
-import project6 from "../assets/projects/project-2.jpg";
-import project7 from "../assets/projects/project-3.jpg";
-import project8 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
+import project7 from "../assets/projects/project-7.jpg";
+
 
 export const HERO_CONTENT = `I am Divya Shrivastava, a dedicated Computer Science and Engineering student with a passion for creating innovative and impactful technology solutions. My experience spans web development, game development, and machine learning, utilizing skills in HTML, CSS, JavaScript, ReactJS, NodeJS, Java, C++, Python, MySQL, and C#. My goal is to leverage my diverse skill set to build engaging and efficient applications, pushing the boundaries of technology to deliver exceptional user experiences.`;
 
@@ -89,7 +89,7 @@ export const PROJECTS = [
 
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Greater Noida West",
+  phoneNo: "+91 9625995511",
+  email: "divya.sh.se@gmail.com",
 };
