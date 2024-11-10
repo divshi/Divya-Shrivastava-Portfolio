@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg";
 import project7 from "../assets/projects/project-7.jpg";
+import project8 from "../assets/projects/project-8.jpeg";
 
 
 export const HERO_CONTENT = `I am Divya Shrivastava, a dedicated Computer Science and Engineering student with a passion for creating innovative and impactful technology solutions. My experience spans web development, game development, and machine learning, utilizing skills in HTML, CSS, JavaScript, ReactJS, NodeJS, Java, C++, Python, MySQL, and C#. My goal is to leverage my diverse skill set to build engaging and efficient applications, pushing the boundaries of technology to deliver exceptional user experiences.`;
@@ -36,6 +37,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Dashboard Creator",
+    image: project8,
+    description:
+      "Web application for generating dashboard of uploaded data using AI and providing interface for chatting with data and creating it's interactive graphs",
+    technologies: ["React.JS","Python"],
+  },
   {
     title: "Snake Game",
     image: project1,
